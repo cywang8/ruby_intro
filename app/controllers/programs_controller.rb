@@ -2,7 +2,7 @@ class ProgramsController < ApplicationController
   def home
     # Your code goes below.
 
-    @your_output = "Replace this string with your output"
+    @your_output = rand(100)
 
     render("programs/home.html.erb")
   end
